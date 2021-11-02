@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 
-const main = () => {
+const Main = () => {
     return (
         <div>
            <Header/> 
@@ -9,4 +9,4 @@ const main = () => {
     )
 }
 
-export default main
+export default Main

@@ -2,13 +2,12 @@ import { Person } from '@mui/icons-material'
 import { Button } from '@mui/material'
 import { makeStyles } from '@mui/styles'
 import React from 'react'
-import { theme } from '../Theme'
+
 
 
 const useStyle = makeStyles(theme => ({
     button:{
-        color:"while",
-        backgroundColor: theme.palette.primary.main
+       ...theme.myButton                               
     }
 }))
     

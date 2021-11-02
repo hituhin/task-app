@@ -1,7 +1,9 @@
-import '../styles/globals.css'
-import {theme} from "../components/Theme"
-import { ThemeProvider } from '@mui/private-theming'
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+// import '../styles/globals.css'
 
+
+
+const theme = createTheme();
 function MyApp({ Component, pageProps }) {
 
   return( 

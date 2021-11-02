@@ -7,5 +7,10 @@ export const theme = createTheme({
         primary:{
             main: purple[500],
         }
+    },
+    myButton:{
+        backgroundColor:"red",
+        color:"white",
+        border:"1px solid black"
     }
 })
