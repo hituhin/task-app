@@ -1,11 +1,18 @@
+import { Container } from '@mui/material';
+import { makeStyles } from '@mui/styles'
 import React from 'react'
 
+const useStyles = makeStyles((theme)=>({
+    container:{
+        paddingTop:theme.spacing(5),
+    }
+}))
 const Feed = () => {
-    
+    const classes =useStyles();
     return (
-        <div>
-            Feed 
-        </div>
+        <Container className={classes.container}>
+           Feed
+        </Container>
     )
 }
 

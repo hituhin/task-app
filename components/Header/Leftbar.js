@@ -6,10 +6,15 @@ import React from 'react'
 
 const useStyles = makeStyles((theme)=>({
     container:{
-        height:"100hv",
+        height:"100vh",
         color:"white",
-        paddingTop: theme.spacing(2),
+        paddingTop: theme.spacing(5),
         backgroundColor:theme.palette.primary.main,
+        [theme.breakpoints.up("sm")]:{
+            backgroundColor: "white",
+            color:"#555",
+            border:"1px solid #ece7e7",
+        }
     },
     items:{
        display:"flex",
@@ -21,9 +26,13 @@ const useStyles = makeStyles((theme)=>({
        }
     },
     icon:{
-
+       marginRight:theme.spacing(1),
+       [theme.breakpoints.up("sm")]:{
+           fontSize: "18px",
+       }
     },
     text:{
+        fontWeight: 500,
         [theme.breakpoints.down("sm")]:{
            display:"none", 
         }

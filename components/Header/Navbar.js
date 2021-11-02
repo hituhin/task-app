@@ -88,10 +88,10 @@ const Navbar = () => {
                </div>
                <div className={classes.icons}>
                  <Search className={classes.searchButton} onClick={ ()=> setOpen(true) } />
-               <Badge badgeContent={4} color="secondary" className={classes.badge }>
+               <Badge badgeContent={0} color="secondary" className={classes.badge }>
                   <Mail/>
                </Badge>
-               <Badge badgeContent={2} color="secondary" className={classes.badge }>
+               <Badge badgeContent={0} color="secondary" className={classes.badge }>
                   <Notifications/>
                </Badge>
                <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
