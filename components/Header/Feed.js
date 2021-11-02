@@ -4,7 +4,7 @@ import React from 'react'
 
 const useStyles = makeStyles((theme)=>({
     container:{
-        paddingTop:theme.spacing(5),
+        paddingTop:theme.spacing(2),
     }
 }))
 const Feed = () => {

@@ -1,5 +1,5 @@
 import { ClassNames } from '@emotion/react';
-import { Home } from '@mui/icons-material';
+import { Bookmark, ExitToApp, Home, List, Person, PhotoCamera, PlayArrowOutlined, Settings, Storefront, TabletMac } from '@mui/icons-material';
 import { Container, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles'
 import React from 'react'
@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme)=>({
     container:{
         height:"100vh",
         color:"white",
-        paddingTop: theme.spacing(5),
+        paddingTop: theme.spacing(2),
         backgroundColor:theme.palette.primary.main,
         [theme.breakpoints.up("sm")]:{
             backgroundColor: "white",
@@ -48,16 +48,40 @@ const Leftbar = () => {
            <Typography className={classes.text} >Home</Typography>
            </div>
            <div className={classes.items}>
-           <Home className={classes.icon } />
-           <Typography className={classes.text} >Home</Typography>
+           <Person className={classes.icon } />
+           <Typography className={classes.text} >Friends</Typography>
            </div>
            <div className={classes.items}>
-           <Home className={classes.icon } />
-           <Typography className={classes.text} >Home</Typography>
+           <List className={classes.icon } />
+           <Typography className={classes.text} >List</Typography>
            </div>
            <div className={classes.items}>
-           <Home className={classes.icon } />
-           <Typography className={classes.text} >Home</Typography>
+           <PhotoCamera className={classes.icon } />
+           <Typography className={classes.text} >Camera</Typography>
+           </div>
+           <div className={classes.items}>
+           <PlayArrowOutlined className={classes.icon } />
+           <Typography className={classes.text} >Videos</Typography>
+           </div>
+           <div className={classes.items}>
+           <TabletMac className={classes.icon } />
+           <Typography className={classes.text} >Apps</Typography>
+           </div>
+           <div className={classes.items}>
+           <Bookmark className={classes.icon } />
+           <Typography className={classes.text} >Collections</Typography>
+           </div>
+           <div className={classes.items}>
+           <Storefront className={classes.icon } />
+           <Typography className={classes.text} >Market Place</Typography>
+           </div>
+           <div className={classes.items}>
+           <Settings className={classes.icon } />
+           <Typography className={classes.text} >Settings</Typography>
+           </div>
+           <div className={classes.items}>
+           <ExitToApp className={classes.icon } />
+           <Typography className={classes.text} >Log Out</Typography>
            </div>
         </Container>
     )
