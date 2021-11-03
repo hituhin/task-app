@@ -1,6 +1,7 @@
 import { Container } from '@mui/material';
 import { makeStyles } from '@mui/styles'
 import React from 'react'
+import Leftbar from './Leftbar';
 
 const useStyles = makeStyles((theme)=>({
     container:{

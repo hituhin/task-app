@@ -2,7 +2,8 @@ import { ClassNames } from '@emotion/react';
 import { Bookmark, ExitToApp, Home, List, Person, PhotoCamera, PlayArrowOutlined, Settings, Storefront, TabletMac } from '@mui/icons-material';
 import { Container, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles'
-import React from 'react'
+import React, {useEffect, useState }from 'react'
+import axios from 'axios'
 
 const useStyles = makeStyles((theme)=>({
     container:{
@@ -40,14 +41,37 @@ const useStyles = makeStyles((theme)=>({
 }))
 
 const Leftbar = () => {
+    // const [leftBarData , setLeftBarData] = useState([]);
+    // useEffect(()=>{
+    //     //  const fetchNavData = async () => {
+    //     //     const navData = await axios.get('http://localhost:4500/nav');
+    //     //     console.log(navData.data);
+    //     // } 
+    //     // fetchNavData();
+    //     axios.get('http://localhost:4500/nav')
+    //     .then(((res) => setLeftBarData(res.data)));
+    // },[])
+    // console.log(iconId,label);
     const classes = useStyles();
+    // console.log(leftBarData);
     return (
         <Container className={classes.container}>
+          {
+        //       leftBarData.map((val, ind)=>(
+        //           <>
+        //             {/* <Typography key={ind} >{val.label}</Typography> */}
+        //             <div className={classes.items}>
+        //            <Person className={classes.icon } />
+        //            <Typography className={classes.text} >{val.label}</Typography>
+        //    </div>
+        //           </>
+        //       ))
+          }
            <div className={classes.items}>
            <Home className={classes.icon } />
            <Typography className={classes.text} >Home</Typography>
            </div>
-           <div className={classes.items}>
+            <div className={classes.items}>
            <Person className={classes.icon } />
            <Typography className={classes.text} >Friends</Typography>
            </div>
@@ -82,7 +106,7 @@ const Leftbar = () => {
            <div className={classes.items}>
            <ExitToApp className={classes.icon } />
            <Typography className={classes.text} >Log Out</Typography>
-           </div>
+           </div> 
         </Container>
     )
 }
