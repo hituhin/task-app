@@ -4,16 +4,6 @@ import { makeStyles } from '@mui/styles';
 import { alpha } from '@mui/material/styles';
 import SearchIcon from '@mui/icons-material/Search';
 import React, { useState } from 'react'
-
-//  const useStyles = makeStyles((theme)=>({
-//      logoLg:{
-//          display:"none",
-//          [theme.breakpoints.up("sm")]:{
-//              display:"block"
-//          }
-//      }
-//  }));
-
   const useStyles = makeStyles((theme)=>({
     
       logoLg:{
@@ -60,7 +50,7 @@ import React, { useState } from 'react'
          marginRight:theme.spacing(2),
          [theme.breakpoints.up("sm")]:{
           display:"none",
-        },
+        }, 
       },
       Cancel:{
         [theme.breakpoints.up("sm")]:{

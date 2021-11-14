@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme)=>({
     text:{
         fontWeight: 500,
         [theme.breakpoints.down("sm")]:{
-           display:"none", 
+           display:"none"
         }
     },
 }))
@@ -43,11 +43,11 @@ const useStyles = makeStyles((theme)=>({
 const Leftbar = () => {
     // const [leftBarData , setLeftBarData] = useState([]);
     // useEffect(()=>{
-    //     //  const fetchNavData = async () => {
-    //     //     const navData = await axios.get('http://localhost:4500/nav');
-    //     //     console.log(navData.data);
-    //     // } 
-    //     // fetchNavData();
+    //      const fetchNavData = async () => {
+    //         const navData = await axios.get('http://localhost:4500/nav');
+    //         console.log(navData.data);
+    //     } 
+    //     fetchNavData();
     //     axios.get('http://localhost:4500/nav')
     //     .then(((res) => setLeftBarData(res.data)));
     // },[])
@@ -56,17 +56,6 @@ const Leftbar = () => {
     // console.log(leftBarData);
     return (
         <Container className={classes.container}>
-          {
-        //       leftBarData.map((val, ind)=>(
-        //           <>
-        //             {/* <Typography key={ind} >{val.label}</Typography> */}
-        //             <div className={classes.items}>
-        //            <Person className={classes.icon } />
-        //            <Typography className={classes.text} >{val.label}</Typography>
-        //    </div>
-        //           </>
-        //       ))
-          }
            <div className={classes.items}>
            <Home className={classes.icon } />
            <Typography className={classes.text} >Home</Typography>

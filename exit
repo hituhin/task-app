@@ -1,0 +1,35 @@
+[33mcommit ac41c66c51574e67b2793aeacc020ef44309f903[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: hituhin <hituhin09@gmail.com>
+Date:   Wed Nov 3 17:59:01 2021 +0600
+
+    task 1 fetch data using api & post data on json placeholder
+
+[33mcommit cd77e934d340f0cd5543e17cb18913c473c52493[m
+Author: hituhin <hituhin09@gmail.com>
+Date:   Tue Nov 2 17:55:57 2021 +0600
+
+    Left Bar Icons!
+
+[33mcommit 74a65ceb9092f0e02b72797fef36cb04619fb0fb[m
+Author: hituhin <hituhin09@gmail.com>
+Date:   Tue Nov 2 17:30:09 2021 +0600
+
+    Left sidebar update
+
+[33mcommit 445780e3e36b7509f563ef090082efd52abff77d[m
+Author: hituhin <hituhin09@gmail.com>
+Date:   Tue Nov 2 11:22:18 2021 +0600
+
+    multi functional App bar done!
+
+[33mcommit a81e98e15125ca34da31f896519cb81d7fdedde8[m
+Author: ovichowdhury <ovi.chowdhury@hotmail.com>
+Date:   Thu Oct 28 15:25:05 2021 +0600
+
+    task app first commit with custome style and custom theming
+
+[33mcommit 7f65d438180fdf854ce415d40c82f3686956ef80[m
+Author: ovichowdhury <ovi.chowdhury@hotmail.com>
+Date:   Thu Oct 28 11:20:03 2021 +0600
+
+    Initial commit from Create Next App

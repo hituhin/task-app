@@ -1,21 +1,19 @@
 import { Container } from '@mui/material';
 import { makeStyles } from '@mui/styles'
 import React from 'react'
-import Post from '../Body/Post';
-import Leftbar from './Leftbar';
 
 const useStyles = makeStyles((theme)=>({
     container:{
-        paddingTop:theme.spacing(2),
+        paddingTop:theme.spacing(1),
     }
 }))
-const Feed = () => {
+const Post = () => {
     const classes =useStyles();
     return (
         <Container className={classes.container}>
-          <Post/>
+           Post
         </Container>
     )
 }
 
-export default Feed
+export default Post

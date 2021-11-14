@@ -22,10 +22,6 @@ const Dashboard = () => {
            <Navbar/>
         <Grid container>
             <Grid item sm={2} xs={2}>
-               
-                   {/* {leftBarData.map((data ,inedex)=>(
-                     <Leftbar key={data.id} leftBarData = {data} />  
-                   ))} */}
                <Leftbar/>
                
             </Grid>
